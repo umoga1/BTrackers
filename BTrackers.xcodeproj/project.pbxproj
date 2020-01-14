@@ -11,9 +11,14 @@
 		A01119EF23CE7766007F823C /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01119EE23CE7766007F823C /* SafariExtensionHandler.swift */; };
 		A01119F123CE7766007F823C /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01119F023CE7766007F823C /* SafariExtensionViewController.swift */; };
 		A01119F423CE7766007F823C /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01119F223CE7766007F823C /* SafariExtensionViewController.xib */; };
-		A01119F723CE7766007F823C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = A01119F623CE7766007F823C /* script.js */; };
+		A01119F723CE7766007F823C /* scripty.js in Resources */ = {isa = PBXBuildFile; fileRef = A01119F623CE7766007F823C /* scripty.js */; };
 		A01119F923CE7766007F823C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */; };
 		A01119FD23CE7766007F823C /* Tracker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A01119E923CE7766007F823C /* Tracker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0111A0523CE7C3D007F823C /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A0111A0223CE7C3D007F823C /* style.css */; };
+		A0111A0623CE7C3D007F823C /* bticon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0111A0323CE7C3D007F823C /* bticon.png */; };
+		A0111A0723CE7C3D007F823C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = A0111A0423CE7C3D007F823C /* script.js */; };
+		A0111A0A23CE7C76007F823C /* robot_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A0111A0823CE7C76007F823C /* robot_white.png */; };
+		A0111A0B23CE7C76007F823C /* blogtrackers.png in Resources */ = {isa = PBXBuildFile; fileRef = A0111A0923CE7C76007F823C /* blogtrackers.png */; };
 		A050BDB023C8FA1800763BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050BDAF23C8FA1800763BCF /* AppDelegate.swift */; };
 		A050BDB223C8FA1800763BCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050BDB123C8FA1800763BCF /* ContentView.swift */; };
 		A050BDB423C8FA1D00763BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050BDB323C8FA1D00763BCF /* Assets.xcassets */; };
@@ -52,9 +57,14 @@
 		A01119F023CE7766007F823C /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		A01119F323CE7766007F823C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		A01119F523CE7766007F823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A01119F623CE7766007F823C /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		A01119F623CE7766007F823C /* scripty.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scripty.js; sourceTree = "<group>"; };
 		A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		A01119FA23CE7766007F823C /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
+		A0111A0223CE7C3D007F823C /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = "../../../Users/ucheumoga/Downloads/BTrackers Extension/style.css"; sourceTree = "<group>"; };
+		A0111A0323CE7C3D007F823C /* bticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bticon.png; path = "../../../Users/ucheumoga/Downloads/BTrackers Extension/bticon.png"; sourceTree = "<group>"; };
+		A0111A0423CE7C3D007F823C /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = script.js; path = "../../../Users/ucheumoga/Downloads/BTrackers Extension/script.js"; sourceTree = "<group>"; };
+		A0111A0823CE7C76007F823C /* robot_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot_white.png; path = ../../../Users/ucheumoga/Downloads/robot_white.png; sourceTree = "<group>"; };
+		A0111A0923CE7C76007F823C /* blogtrackers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blogtrackers.png; path = ../../Users/ucheumoga/Downloads/blogtrackers.png; sourceTree = SOURCE_ROOT; };
 		A050BDAC23C8FA1800763BCF /* BTrackers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTrackers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050BDAF23C8FA1800763BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A050BDB123C8FA1800763BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,11 +105,16 @@
 		A01119ED23CE7766007F823C /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				A0111A0923CE7C76007F823C /* blogtrackers.png */,
+				A0111A0823CE7C76007F823C /* robot_white.png */,
+				A0111A0323CE7C3D007F823C /* bticon.png */,
+				A0111A0423CE7C3D007F823C /* script.js */,
+				A0111A0223CE7C3D007F823C /* style.css */,
 				A01119EE23CE7766007F823C /* SafariExtensionHandler.swift */,
 				A01119F023CE7766007F823C /* SafariExtensionViewController.swift */,
 				A01119F223CE7766007F823C /* SafariExtensionViewController.xib */,
 				A01119F523CE7766007F823C /* Info.plist */,
-				A01119F623CE7766007F823C /* script.js */,
+				A01119F623CE7766007F823C /* scripty.js */,
 				A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */,
 				A01119FA23CE7766007F823C /* Tracker.entitlements */,
 			);
@@ -228,9 +243,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0111A0A23CE7C76007F823C /* robot_white.png in Resources */,
 				A01119F923CE7766007F823C /* ToolbarItemIcon.pdf in Resources */,
+				A0111A0723CE7C3D007F823C /* script.js in Resources */,
+				A0111A0523CE7C3D007F823C /* style.css in Resources */,
 				A01119F423CE7766007F823C /* SafariExtensionViewController.xib in Resources */,
-				A01119F723CE7766007F823C /* script.js in Resources */,
+				A0111A0623CE7C3D007F823C /* bticon.png in Resources */,
+				A0111A0B23CE7C76007F823C /* blogtrackers.png in Resources */,
+				A01119F723CE7766007F823C /* scripty.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
