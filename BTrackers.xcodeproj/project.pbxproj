@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01119EC23CE7766007F823C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01119EB23CE7766007F823C /* Cocoa.framework */; };
+		A01119EF23CE7766007F823C /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01119EE23CE7766007F823C /* SafariExtensionHandler.swift */; };
+		A01119F123CE7766007F823C /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01119F023CE7766007F823C /* SafariExtensionViewController.swift */; };
+		A01119F423CE7766007F823C /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01119F223CE7766007F823C /* SafariExtensionViewController.xib */; };
+		A01119F723CE7766007F823C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = A01119F623CE7766007F823C /* script.js */; };
+		A01119F923CE7766007F823C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */; };
+		A01119FD23CE7766007F823C /* Tracker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A01119E923CE7766007F823C /* Tracker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A050BDB023C8FA1800763BCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050BDAF23C8FA1800763BCF /* AppDelegate.swift */; };
 		A050BDB223C8FA1800763BCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050BDB123C8FA1800763BCF /* ContentView.swift */; };
 		A050BDB423C8FA1D00763BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A050BDB323C8FA1D00763BCF /* Assets.xcassets */; };
@@ -14,7 +21,40 @@
 		A050BDBA23C8FA1D00763BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A050BDB823C8FA1D00763BCF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A01119FB23CE7766007F823C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A050BDA423C8FA1800763BCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01119E823CE7766007F823C;
+			remoteInfo = Tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A01119FE23CE7766007F823C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A01119FD23CE7766007F823C /* Tracker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A01119E923CE7766007F823C /* Tracker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tracker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01119EB23CE7766007F823C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A01119EE23CE7766007F823C /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		A01119F023CE7766007F823C /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		A01119F323CE7766007F823C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		A01119F523CE7766007F823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01119F623CE7766007F823C /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		A01119FA23CE7766007F823C /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
 		A050BDAC23C8FA1800763BCF /* BTrackers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTrackers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050BDAF23C8FA1800763BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A050BDB123C8FA1800763BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +66,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A01119E623CE7766007F823C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01119EC23CE7766007F823C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050BDA923C8FA1800763BCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +84,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01119EA23CE7766007F823C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01119EB23CE7766007F823C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01119ED23CE7766007F823C /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				A01119EE23CE7766007F823C /* SafariExtensionHandler.swift */,
+				A01119F023CE7766007F823C /* SafariExtensionViewController.swift */,
+				A01119F223CE7766007F823C /* SafariExtensionViewController.xib */,
+				A01119F523CE7766007F823C /* Info.plist */,
+				A01119F623CE7766007F823C /* script.js */,
+				A01119F823CE7766007F823C /* ToolbarItemIcon.pdf */,
+				A01119FA23CE7766007F823C /* Tracker.entitlements */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
 		A050BDA323C8FA1800763BCF = {
 			isa = PBXGroup;
 			children = (
 				A050BDAE23C8FA1800763BCF /* BTrackers */,
+				A01119ED23CE7766007F823C /* Tracker */,
+				A01119EA23CE7766007F823C /* Frameworks */,
 				A050BDAD23C8FA1800763BCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				A050BDAC23C8FA1800763BCF /* BTrackers.app */,
+				A01119E923CE7766007F823C /* Tracker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +150,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A01119E823CE7766007F823C /* Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0111A0123CE7766007F823C /* Build configuration list for PBXNativeTarget "Tracker" */;
+			buildPhases = (
+				A01119E523CE7766007F823C /* Sources */,
+				A01119E623CE7766007F823C /* Frameworks */,
+				A01119E723CE7766007F823C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tracker;
+			productName = Tracker;
+			productReference = A01119E923CE7766007F823C /* Tracker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A050BDAB23C8FA1800763BCF /* BTrackers */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A050BDBF23C8FA1D00763BCF /* Build configuration list for PBXNativeTarget "BTrackers" */;
@@ -84,10 +174,12 @@
 				A050BDA823C8FA1800763BCF /* Sources */,
 				A050BDA923C8FA1800763BCF /* Frameworks */,
 				A050BDAA23C8FA1800763BCF /* Resources */,
+				A01119FE23CE7766007F823C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A01119FC23CE7766007F823C /* PBXTargetDependency */,
 			);
 			name = BTrackers;
 			productName = BTrackers;
@@ -104,6 +196,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = COSMOS;
 				TargetAttributes = {
+					A01119E823CE7766007F823C = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					A050BDAB23C8FA1800763BCF = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -123,11 +218,22 @@
 			projectRoot = "";
 			targets = (
 				A050BDAB23C8FA1800763BCF /* BTrackers */,
+				A01119E823CE7766007F823C /* Tracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A01119E723CE7766007F823C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01119F923CE7766007F823C /* ToolbarItemIcon.pdf in Resources */,
+				A01119F423CE7766007F823C /* SafariExtensionViewController.xib in Resources */,
+				A01119F723CE7766007F823C /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050BDAA23C8FA1800763BCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +247,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A01119E523CE7766007F823C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01119F123CE7766007F823C /* SafariExtensionViewController.swift in Sources */,
+				A01119EF23CE7766007F823C /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A050BDA823C8FA1800763BCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,7 +267,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A01119FC23CE7766007F823C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01119E823CE7766007F823C /* Tracker */;
+			targetProxy = A01119FB23CE7766007F823C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		A01119F223CE7766007F823C /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01119F323CE7766007F823C /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
 		A050BDB823C8FA1D00763BCF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -164,6 +295,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A01119FF23CE7766007F823C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ualr.BTrackers.Tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A0111A0023CE7766007F823C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Tracker/Tracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ualr.BTrackers.Tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A050BDBD23C8FA1D00763BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +447,7 @@
 		A050BDC023C8FA1D00763BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BTrackers/BTrackers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +469,7 @@
 		A050BDC123C8FA1D00763BCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = BTrackers/BTrackers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +491,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A0111A0123CE7766007F823C /* Build configuration list for PBXNativeTarget "Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01119FF23CE7766007F823C /* Debug */,
+				A0111A0023CE7766007F823C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A050BDA723C8FA1800763BCF /* Build configuration list for PBXProject "BTrackers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
