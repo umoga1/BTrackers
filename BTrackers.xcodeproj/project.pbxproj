@@ -64,7 +64,11 @@
 		A0111A0323CE7C3D007F823C /* bticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bticon.png; path = "../../../Users/ucheumoga/Downloads/BTrackers Extension/bticon.png"; sourceTree = "<group>"; };
 		A0111A0423CE7C3D007F823C /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = script.js; path = "../../../Users/ucheumoga/Downloads/BTrackers Extension/script.js"; sourceTree = "<group>"; };
 		A0111A0823CE7C76007F823C /* robot_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot_white.png; path = ../../../Users/ucheumoga/Downloads/robot_white.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		A0111A0923CE7C76007F823C /* blogtrackers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blogtrackers.png; path = ../../Users/ucheumoga/Downloads/blogtrackers.png; sourceTree = SOURCE_ROOT; };
+=======
+		A0111A0923CE7C76007F823C /* blogtrackers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blogtrackers.png; path = ../../../Users/ucheumoga/Downloads/blogtrackers.png; sourceTree = "<group>"; };
+>>>>>>> ad8bb5f99f56f0845c6a81a49671ed210228ae04
 		A050BDAC23C8FA1800763BCF /* BTrackers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTrackers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050BDAF23C8FA1800763BCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A050BDB123C8FA1800763BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
